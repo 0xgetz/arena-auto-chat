@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="arena-auto-chat banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0E17"/>
+      <stop offset="60%" stop-color="#101527"/>
+      <stop offset="100%" stop-color="#0B0E17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="55%" stop-color="#4F8CFF"/>
+      <stop offset="100%" stop-color="#23D3A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1020" cy="80" r="220" fill="url(#glow)"/>
+  <circle cx="140" cy="280" r="180" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- Grid lines -->
+  <g stroke="#1C2338" stroke-width="1">
+    <path d="M0 80 H1200 M0 160 H1200 M0 240 H1200"/>
+    <path d="M200 0 V320 M400 0 V320 M600 0 V320 M800 0 V320 M1000 0 V320"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(72, 96)">
+    <rect x="0" y="0" width="128" height="128" rx="30" fill="#0B0E17" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M34 40 h60 a14 14 0 0 1 14 14 v26 a14 14 0 0 1 -14 14 h-30 l-16 14 v-14 h-14 a14 14 0 0 1 -14 -14 v-26 a14 14 0 0 1 14 -14 z"
+          fill="none" stroke="url(#accent)" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="50" cy="67" r="6" fill="#EAF0FF"/>
+    <circle cx="66" cy="67" r="6" fill="#EAF0FF"/>
+    <circle cx="82" cy="67" r="6" fill="#EAF0FF"/>
+    <rect x="86" y="90" width="22" height="6" rx="3" fill="#23D3A6"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="248" y="150" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="800" fill="#F4F7FF" letter-spacing="-1.5">arena<tspan fill="url(#accent)">-auto-chat</tspan></text>
+  <text x="250" y="196" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="24" fill="#9AA6C4">arena.ai account creator + direct chat automation, end to end</text>
+
+  <!-- Pills -->
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600">
+    <rect x="250" y="222" width="150" height="38" rx="19" fill="#141A2C" stroke="#243049"/>
+    <text x="325" y="247" text-anchor="middle" fill="#9AA6C4">Zero deps</text>
+
+    <rect x="416" y="222" width="170" height="38" rx="19" fill="#141A2C" stroke="#243049"/>
+    <text x="501" y="247" text-anchor="middle" fill="#9AA6C4">CDP native</text>
+
+    <rect x="602" y="222" width="196" height="38" rx="19" fill="#141A2C" stroke="#243049"/>
+    <text x="700" y="247" text-anchor="middle" fill="#9AA6C4">zenvex temp mail</text>
+
+    <rect x="814" y="222" width="150" height="38" rx="19" fill="#141A2C" stroke="#243049"/>
+    <text x="889" y="247" text-anchor="middle" fill="#9AA6C4">MIT</text>
+  </g>
+
+  <rect x="0" y="314" width="1200" height="6" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 120" width="640" height="120" role="img" aria-label="arena-auto-chat wordmark">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="55%" stop-color="#4F8CFF"/>
+      <stop offset="100%" stop-color="#23D3A6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8, 12)">
+    <rect x="0" y="0" width="96" height="96" rx="24" fill="#0B0E17" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M25 30 h45 a11 11 0 0 1 11 11 v20 a11 11 0 0 1 -11 11 h-22 l-12 10 v-10 h-11 a11 11 0 0 1 -11 -11 v-20 a11 11 0 0 1 11 -11 z"
+          fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="38" cy="51" r="4.5" fill="#EAF0FF"/>
+    <circle cx="50" cy="51" r="4.5" fill="#EAF0FF"/>
+    <circle cx="62" cy="51" r="4.5" fill="#EAF0FF"/>
+    <rect x="65" y="68" width="17" height="5" rx="2.5" fill="#23D3A6"/>
+  </g>
+  <text x="124" y="76" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="800" fill="#F4F7FF" letter-spacing="-1">arena<tspan fill="url(#accent)">-auto-chat</tspan></text>
+</svg>

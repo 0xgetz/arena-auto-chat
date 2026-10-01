@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Secrets and runtime output — never commit these
+.env
+accounts/
+*.accounts.json
+arena-accounts*.json
+arena-accounts*.txt
+outputs/
+data/
+*.log
+
+# Browser profiles created by --profile
+.browser-profile/
+chrome-data/
+cdp-profile/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

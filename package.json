@@ -1,0 +1,49 @@
+{
+  "name": "arena-auto-chat",
+  "version": "1.0.0",
+  "description": "End-to-end arena.ai account creator + direct chat automation — disposable inbox (zenvex.dev), magic-link verification, and a DeepSeek direct chat run. Zero dependencies, Chrome DevTools Protocol.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "arena-auto-chat": "src/index.mjs"
+  },
+  "files": [
+    "src",
+    "docs/assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.mjs",
+    "create": "node src/index.mjs create",
+    "chat": "node src/index.mjs chat",
+    "run": "node src/index.mjs run",
+    "test": "node src/test_e2e.mjs"
+  },
+  "keywords": [
+    "arena-ai",
+    "automation",
+    "cdp",
+    "chrome-devtools-protocol",
+    "account-creator",
+    "temporary-email",
+    "zenvex",
+    "deepseek",
+    "cli",
+    "zero-dependencies"
+  ],
+  "author": "0xgetz",
+  "license": "MIT",
+  "homepage": "https://github.com/0xgetz/arena-auto-chat#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xgetz/arena-auto-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xgetz/arena-auto-chat/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
+}
